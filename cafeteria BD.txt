@@ -1,0 +1,11 @@
+CREATE TABLE productos (
+  productoID INT,
+  nombreProducto varchar (70),
+  precioProducto float (2),
+  Disponible BOOL
+  );
+  INSERT INTO productos VALUES (1, 'manzana', 0.20, False);
+  INSERT INTO productos VALUES (2, 'piña', 0.50, False);
+  INSERT INTO productos VALUES (3, 'melón', 0.70, True);
+  INSERT INTO productos VALUES (4, 'plátano', 0.10, False);
+  INSERT INTO productos VALUES (5, 'naranja', 0.09, False);
